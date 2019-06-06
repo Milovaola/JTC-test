@@ -1,0 +1,24 @@
+.toolbar {
+  background-color: #f5d7bf;
+  overflow: hidden;
+  border-bottom: 1px solid #656665;
+}
+
+.toolbar a {
+  float: left;
+  color: #656665;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.toolbar a:hover {
+  background-color: #ece9e0;
+  color: #656665;
+}
+
+.toolbar a.active {
+  background-color: #ff9966;
+  color: white;
+}

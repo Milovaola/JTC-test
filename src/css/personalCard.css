@@ -1,0 +1,44 @@
+.personal-card {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.personal-card__info {
+  margin-left: 20px;
+}
+
+.personal-card__info th,
+td {
+  border-style: solid;
+  border-width: 0 0px 1px 0;
+  border-color: white;
+}
+.personal-card__info th {
+  text-align: left;
+}
+.personal-card__info td {
+  text-align: right;
+}
+.block-location {
+  display: flex;
+  margin: 10px;
+}
+.location {
+  width: 50%;
+  border: 1px solid;
+}
+.location ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.location li {
+  list-style: none;
+  padding: 0;
+}
+.location h3 {
+  text-align: center;
+}
+.episode-block {
+  display: inline-block;
+  margin-left: 20px;
+}

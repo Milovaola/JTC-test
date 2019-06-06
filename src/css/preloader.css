@@ -1,0 +1,72 @@
+#preloader-group {
+  position: relative;
+  width: 234px;
+  height: 28px;
+  margin: auto;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  background-color: #ff9966;
+  width: 28px;
+  height: 28px;
+  animation-name: bounce_preloader;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  transform: scale(0.3);
+  border-radius: 19px;
+}
+
+#preloader_1 {
+  left: 0;
+  animation-delay: 0.6s;
+}
+
+#preloader_2 {
+  left: 29px;
+  animation-delay: 0.75s;
+}
+
+#preloader_3 {
+  left: 58px;
+  animation-delay: 0.9s;
+}
+
+#preloader_4 {
+  left: 88px;
+  animation-delay: 1.05s;
+}
+
+#preloader_5 {
+  left: 117px;
+  animation-delay: 1.2s;
+}
+
+#preloader_6 {
+  left: 146px;
+  animation-delay: 1.35s;
+}
+
+#preloader_7 {
+  left: 175px;
+  animation-delay: 1.5s;
+}
+
+#preloader_8 {
+  left: 205px;
+  animation-delay: 1.64s;
+}
+
+@keyframes bounce_preloader {
+  0% {
+    transform: scale(1);
+    background-color: #ff9966;
+  }
+
+  100% {
+    transform: scale(0.3);
+    background-color: rgb(255, 255, 255);
+  }
+}

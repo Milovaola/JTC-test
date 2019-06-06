@@ -1,0 +1,75 @@
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.character-card {
+  width: 300px;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+.character-card img {
+    height: 300px;
+}
+
+.character-card__info {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.character-card__info th,
+td {
+  border-style: solid;
+  border-width: 0 0px 1px 0;
+  border-color: white;
+}
+.character-card__info th {
+  text-align: left;
+}
+.character-card__info td {
+  text-align: right;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pagination-buttons button {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  transition: 0.2s;
+}
+.pagination-buttons button:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+.pagination-buttons button:active {
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+.pagination-buttons button:disabled {
+  background: #f5d7bf
+}
+.pagination p {
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: bold;
+}

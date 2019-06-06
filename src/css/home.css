@@ -1,0 +1,40 @@
+body {
+  min-width: 1200px;
+  margin: 0%;
+  padding: 0%;
+
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  color: #656665;
+}
+
+.main-table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #ece9e0;
+  color: #656665;
+  border: 16px solid #ece9e0;
+  border-radius: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main-table-header {
+  font-size: 18px;
+  padding: 10px;
+}
+.main-table-text {
+  background: #f5d7bf;
+  padding: 10px;
+}
